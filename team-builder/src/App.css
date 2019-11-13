@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
 }
 
 .App-logo {
@@ -19,4 +25,43 @@
 
 .App-link {
   color: #09d3ac;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom:1.5rem;
+  height:10vh;
+  width:100%;
+  background-color:goldenrod;
+  padding: 1rem 2.5rem;
+}
+form input{
+  margin-left:1rem;
+}
+form button{
+  border:none;
+  padding:0.5rem 1rem;
+  font-weight:bold;
+  box-sizing:border-box;
+  
+  /* text-transform:uppercase; */
+}
+.card-container{
+  display:flex;
+  justify-content:flex-start;
+  align-content:center;
+  flex-wrap:wrap;
+  /* width:100%; */
+  margin:0 auto;
+  
+}
+.card{
+  padding:1rem 2rem;
+  background-color:#4e4e9e;
+  color:white;
+  margin:1rem;
+  box-shadow: 0 0.5rem 1rem rgba(000,000,000,0.3);
+
 }

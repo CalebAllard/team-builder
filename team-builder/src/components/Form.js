@@ -23,8 +23,8 @@ const Form = props => {
         
 
         <form onSubmit={handeleSubmit}>
-            <label htmlFor='name'>Name: </label>
-            <input type='text' name='name' id='name' onChange={handleChange} value={member.name} />
+            <label htmlFor='name'>Name: 
+            <input type='text' name='name' id='name' onChange={handleChange} value={member.name} /> </label>
             <button type="submit">Add Member</button>
         </form>
         
